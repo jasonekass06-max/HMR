@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- HTTPS only, no user-installed CAs, and the API host is certificate-pinned.
+         Replace the pin digests with the real ones from your production certificate
+         (primary + a backup key) before release. -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+    <domain-config>
+        <domain includeSubdomains="true">api.supint.et</domain>
+        <pin-set expiration="2027-12-31">
+            <pin digest="SHA-256">REPLACE_WITH_PRIMARY_PIN_BASE64=</pin>
+            <pin digest="SHA-256">REPLACE_WITH_BACKUP_PIN_BASE64=</pin>
+        </pin-set>
+    </domain-config>
+</network-security-config>

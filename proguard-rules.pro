@@ -1,0 +1,4 @@
+-keepattributes *Annotation*, Signature
+-keep class et.supint.digitalservice.data.** { *; }
+-keepclassmembers class kotlinx.serialization.** { *; }
+-dontwarn javax.annotation.**

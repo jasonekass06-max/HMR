@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Supint" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">#FF5A00</item>
+        <item name="android:windowBackground">#FFFAF5</item>
+    </style>
+</resources>

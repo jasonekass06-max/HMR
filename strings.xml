@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Supint Digital Service</string>
+    <string name="tagline">ከበድቲ ማሺናት፣ ብሓደ ጠቅታ</string>
+    <string name="nav_home">ቤት</string>
+    <string name="nav_requests">ሕቶታት</string>
+    <string name="nav_wallet">ቦርሳ</string>
+    <string name="nav_profile">ፕሮፋይል</string>
+    <string name="request_service">ኣገልግሎት ሕተት</string>
+    <string name="register_provider">ኣገልጋሊ ኩኑ</string>
+    <string name="select_machine">ማሺን ምረጽ</string>
+    <string name="service_type">ዓይነት ኣገልግሎት</string>
+    <string name="price_etb">ዋጋ (ብር)</string>
+    <string name="pay_now">ሕጂ ክፈል</string>
+    <string name="commission_note">10% ካብ እቲ ኣገልጋሊ ኣታዊ ክፍሊት መድረኽ እዩ</string>
+    <string name="total">ጠቕላላ</string>
+    <string name="phone_number">ቁጽሪ ተሌፎን</string>
+    <string name="ussd_hint">ኢንተርነት የለን? *811# ደውል</string>
+    <string name="confirm">ኣረጋግጽ</string>
+    <string name="cancel">ሰርዝ</string>
+    <string name="sos">ህጹጽ ሓገዝ</string>
+    <string name="language">ቋንቋ</string>
+    <string name="machine_loader">ሎደር</string>
+    <string name="machine_tractor">ትራክተር</string>
+    <string name="machine_combine">ኮምባይነር</string>
+    <string name="machine_excavator">ኤክስካቫተር</string>
+    <string name="machine_forklift">ነዊሕ ፎርክሊፍት</string>
+    <string name="machine_isuzu_fsr">ኢሱዙ ኤፍኤስኣር</string>
+    <string name="machine_sino_truck">ሳይኖ ትራክ</string>
+    <string name="machine_casoni">ካሶኒ</string>
+    <string name="fee_processing">ክፍሊት ምስላጥ</string>
+    <string name="fee_service">ክፍሊት ኣገልግሎት</string>
+    <string name="fee_vat">ተ.ወ.ታ (15%)</string>
+    <string name="fee_platform">ኮሚሽን መድረኽ (10%)</string>
+    <string name="provider_receives">ኣገልጋሊ ዝረክቦ</string>
+</resources>
